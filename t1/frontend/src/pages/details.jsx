@@ -130,7 +130,7 @@ export const events = [
     finalsDate: "18-03-2025",
     coordinators: [
       { name: "Srija Mondal", phone: "8851270470" },
-      {name: "Koustav Bhattacharjee", phone: "8584977088" },
+      { name: "Koustav Bhattacharjee", phone: "8584977088" },
       { name: "Nilendu Dikshit", phone: "7797749574" }
     ],
     rules: [
@@ -146,7 +146,7 @@ export const events = [
   {
      id: "67b7145e9a01ff3f0a3c85e8", //id of debate competition
      title: "Torko Bitorko",
-     description: "Be prepared to engage yourself in thought-provoking discussions on general knowledge, core engineering concepts, and current affairs to showcase analytical thinking, argumentation skills and intellectual agility",
+     description: "Torko Bitorko is an electrifying clash of intellect, eloquence, and persuasion, where participants must think swiftly and argue decisively on core engineering concepts and contemporary issues.",
      location: "Mechanical Dept, Jadavpur University",
      type: "General",
      groupSize: "1-4",
@@ -156,14 +156,14 @@ export const events = [
      finalsDate: "19-03-2025",
      coordinators: [
        { name: "Mrinmay Tarafdar", phone: "9749386827" },
-       {name: "Koustav Das", phone: "8348217647" },
-       { name: "Aditya Mondal", phone: "974270706" }  
+       { name: "Koustav Das", phone: "8348217647" },
+       { name: "Aditya Mondal", phone: "9748270706" }
      ],
      rules: [
        "During the preparation period, usage of mobile phones, laptops, or any reference material is strictly prohibited.",
        "Participants must respect their fellow debaters. Interruptions, personal attacks, or aggressive behavior will not be tolerated.",
        "Participants are expected to maintain professional conduct throughout the competition.",
-        "Any form of plagiarism, cheating, or unethical behavior will result in immediate disqualification.",
+       "Any form of plagiarism, cheating, or unethical behavior will result in immediate disqualification.",
        "The decision of the Event Coordinator will be final and no arguments will be entertained.",
        
      ],
@@ -208,7 +208,7 @@ export const events = [
     finalsDate: "17-03-2025",
     coordinators: [
       { name: "Samriddha Chakraborty", phone: "9330284935" },
-      {name: "Mainak Roy", phone: "7908373925" },
+      { name: "Mainak Roy", phone: "7908373925" },
       { name: "Satanik Auddy", phone: "9038514040" }
     ],
     rules: [
@@ -301,7 +301,7 @@ export const events = [
   },
   {
     id: "67b710b69a01ff3f0a3c85e3",
-    title: "Robotrail",
+    title: "RoboTrail",
     description: "Design and construct a line-following robot that navigates a predefined path.",
     location: "Mechanical Dept, Jadavpur University",
     type: "Hardware Challenge",
@@ -311,8 +311,8 @@ export const events = [
     prelimsDate: "18-03-2025",
     finalsDate: "18-03-2025",
     coordinators: [
-      { name: "Rohit Dutta", phone: "" },
-      { name: "Antan Shah", phone: "8585050938" },
+      { name: "Rohit Dutta", phone: "9064890591" },
+      { name: "Antan Saha", phone: "8585050938" },
       { name: "Abhirup Guha Roy", phone: "8910232532" }
     ],
     rules: [
@@ -336,7 +336,7 @@ export const events = [
    // prelimsDate: "17-03-2025(online)",
     finalsDate: "17-03-2025",
     coordinators: [
-      { name: "Himopravo Chowdhuri", phone: "94759 74209" },
+      { name: "Himopravo Chowdhuri", phone: "9475974209" },
       { name: "Mrinmay Tarafdar", phone: "9749386827" },
       { name: "Tuhin Chakraborty", phone: "9038432263" }
     ],
