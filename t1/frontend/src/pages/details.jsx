@@ -21,16 +21,16 @@ import {
 import Navbar from './Navbar';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import hydro from "../assets/6.png";
-import datamine from "../assets/1.png";
-import model from "../assets/13.png";
-import clash from "../assets/3.png";
-import debate from "../assets/5.png";
-import egg from "../assets/10.png";
-import frame from "../assets/9.jpg";
-import robo from "../assets/7.png";
-import qui from "../assets/4.png";
-import maze from "../assets/8.jpg";
+import hydro from "../assets/EventPosters/Hydroblasters.avif";
+import datamine from "../assets/EventPosters/DataMine.avif";
+import model from "../assets/EventPosters/ModelMatrix.avif";
+import clash from "../assets/EventPosters/ClashOfCases.avif";
+import debate from "../assets/EventPosters/Torkobitorko.avif";
+import egg from "../assets/EventPosters/ProtecEggt.avif";
+import frame from "../assets/EventPosters/BeyondTheFrame.avif";
+import robo from "../assets/EventPosters/RoboLeague.avif";
+import qui from "../assets/EventPosters/Gyanyudh.avif";
+import maze from "../assets/EventPosters/RoboTrail.avif";
 
 
 
@@ -184,7 +184,7 @@ export const events = [
       { name: "Suman Kundu", phone: "98019 41637" },
       { name: "Himopravo Chowdhuri", phone: "94759 74209" },
       { name: "Nasim Ahmed Mallick", phone: "80160 53970" },
-      { name: "Archit", phone: "90026 84106" }
+      { name: "Archit Maity", phone: "90026 84106" }
     ],
     rules: [
       "Points will be given based on the parameters and penalties, following all the specifications mentioned in the document ",
@@ -212,10 +212,10 @@ export const events = [
       { name: "Satanik Auddy", phone: "9038514040" }
     ],
     rules: [
-      "Necessary materials will be prvided.Scissors and Fevicol only are allowed. Other adhesives like dendrite, Fevi-quick, glue guns are strictly prohibited.",
+      "Necessary materials will be provided. Only Scissors and Fevicol are allowed. Other adhesives like dendrite, Fevi-quick, glue guns are strictly prohibited.",
       "Interdisciplinary teams (members from different courses) and intercollege teams (members from different institutions) are allowed.",
       "Participants are expected to maintain professional conduct throughout the competition.",
-       "Any form of plagiarism, cheating, or unethical behavior will result in immediate disqualification.",
+      "Any form of plagiarism, cheating, or unethical behavior will result in immediate disqualification.",
       "The decision of the Event Coordinator will be final and no arguments will be entertained.",
       
     ],

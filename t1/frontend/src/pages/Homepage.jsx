@@ -130,15 +130,13 @@ const testimonials = [
 const destinations = [
   {
     id: 1,
-    name: "Mechanical Department",
-    image:
-      "https://lh3.googleusercontent.com/p/AF1QipNFES13e38ErdouLsTOOg3bLR9eOeokcMRXVc0c=s1360-w1360-h1020",
+    name: "Mechanical Engineering Department",
+    image: "https://res.cloudinary.com/dig63yzxi/image/upload/v1740909479/L_v8wbsy.jpg",
   },
   {
     id: 2,
-    name: "Playground",
-    image:
-      "https://lh3.googleusercontent.com/p/AF1QipOUccatxSmzPhxPiiGjKlywuohaPcLe_LCNce94=s1360-w1360-h1020",
+    name: "Jadavpur University Gate",
+    image: "https://res.cloudinary.com/dig63yzxi/image/upload/v1740910145/h_uinwlz.jpg",
   },
   {
     id: 3,
@@ -148,7 +146,25 @@ const destinations = [
   },
   {
     id: 4,
-    name: "Mechanical Department",
+    name: "Hydraulics Building",
+    image:
+      "https://res.cloudinary.com/dig63yzxi/image/upload/v1740909890/b_jfa5pg.jpg",
+  },
+  {
+    id: 5,
+    name: "Heat Power Building",
+    image:
+      "https://res.cloudinary.com/dig63yzxi/image/upload/v1740909994/f_wdydqq.jpg",
+  },
+  {
+    id: 6,
+    name: "Blue Earth Machine Shop",
+    image:
+      "https://res.cloudinary.com/dig63yzxi/image/upload/v1740910052/g_wkyodj.jpg",
+  },
+  {
+    id: 7,
+    name: "Playground", 
     image:
       "https://lh3.googleusercontent.com/p/AF1QipPiNJJwo8Zm5JsHLqmoyL3PhlPFybcvYTExE_Fv=s1360-w1360-h1020",
   },
@@ -157,7 +173,6 @@ const destinations = [
 function HomePage() {
   const navigate = useNavigate();
 
-  // When a card's SEE MORE is clicked, show an alert for "Coming Soon".
   const handleCardClick = (type) => {
     navigate(`/explore?filter=${type}`);
   };
@@ -451,7 +466,7 @@ function HomePage() {
           >
             <Container maxWidth="lg">
               <Typography variant="h4" align="center" className="michroma" gutterBottom>
-                Where You Find Us?
+                Find Us In
               </Typography>
               <Box
                 sx={{
